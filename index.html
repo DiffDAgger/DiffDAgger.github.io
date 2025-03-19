@@ -53,6 +53,8 @@
             <span class="author-block">
               <a href="">Sung-Wook Lee</a><sup>1</sup>,</span>
             <span class="author-block">
+              <a href="">Xuhui-Kang</a><sup>1</sup>,</span>
+            <span class="author-block">
               <a href="">Yen-Ling Kuo</a><sup>1</sup>,</span>
             </span>
           </div>
@@ -123,11 +125,9 @@
             Recently, diffusion policy has shown impressive results in handling multi-modal tasks in robotic manipulation. 
             However, it has fundamental limitations in out-of-distribution failures that persist due to compounding errors and its limited capability to extrapolate. 
             One way to address these limitations is robot-gated DAgger, an interactive imitation learning with a robot query system to actively seek expert help during policy rollout. 
-            While robot-gated DAgger has high potential for learning at scale, existing methods like Ensemble-DAgger struggle with highly expressive policies: 
-            They often misinterpret policy disagreements as uncertainty at multi-modal decision points.        
+            While robot-gated DAgger has high potential for learning at scale, existing methods like Ensemble-DAgger struggle with highly expressive policies: They often misinterpret policy disagreements as uncertainty at multi-modal decision points.
             To address this problem, we introduce Diff-DAgger, an efficient robot-gated DAgger algorithm that leverages the training objective of diffusion policy. 
-            We evaluate Diff-DAgger across different robot tasks including stacking, pushing, and plugging, and show that Diff-DAgger improves the task failure prediction by 37%, 
-            the task completion rate by 14%, and reduces the wall-clock time by up to 540%. 
+            We evaluate Diff-DAgger across different robot tasks including stacking, pushing, and plugging, and show that Diff-DAgger improves the task failure prediction by 39.0%, the task completion rate by 20.6%, and reduces the wall-clock time by a factor of 7.8. 
             We hope that this work opens up a path for efficiently incorporating expressive yet data-hungry policies into interactive robot learning settings.
           </p>
 
@@ -135,19 +135,6 @@
         </div>
       </div>
     </div>
-    <!--/ Abstract. -->
-
-    <!-- Paper video. -->
-    <!-- <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Paper video. -->
   </div>
 </section>
 
@@ -177,33 +164,27 @@
             <!-- Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall. -->
           </p>
-          <video id="stacking" autoplay muted loop playsinline height="100%">
+          <video id="stacking" autoplay muted loop playsinline height="60%">
             <source src="./static/videos/stack_dloss.mp4"
                     type="video/mp4">
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
+    <!-- Matting. -->
+    <div class="column">
+      <div class="content"></div>
         <h2 class="title is-4">Pushing</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-            </p>
-            <video id="stacking" autoplay muted loop playsinline height="100%">
-              <source src="./static/videos/push_dloss.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
+          <p>
+          </p>
+          <video id="stacking" autoplay muted loop playsinline height="60%">
+            <source src="./static/videos/push_dloss.mp4"
+                    type="video/mp4">
+          </video>
         </div>
-      </div>
-    </div>
-    <h2 class="title is-4">Plugging</h2>
-    <div class="columns">
-      <div class="column content" style="text-align: left;">
-        <video id="stacking" autoplay muted controls loop playsinline style="width: 45%; height: auto;">
+    <div class="column">
+      <div class="content"></div>
+        <h2 class="title is-4">Plugging</h2>
+        <video id="stacking" autoplay muted controls loop playsinline height=60%>
           <source src="./static/videos/plug_desc.mp4" type="video/mp4">
         </video>
       </div>
@@ -212,8 +193,10 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3">Real World Tasks</h2>
-    WIP
+    <h2 class="title is-3">Real World Demonstration</h2>
+    <video id="stacking" autoplay muted controls loop playsinline style="width: 100%; height: auto;">
+      <source src="./static/videos/real_world.mp4" type="video/mp4">
+    </video>
     <div class="columns is-centered">
   </div>
 
@@ -227,14 +210,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{lee2024diffdaggeruncertaintyestimationdiffusion,
+    <pre><code>@inproceedings{lee2024diffdagger,
       title={Diff-DAgger: Uncertainty Estimation with Diffusion Policy for Robotic Manipulation}, 
-      author={Sung-Wook Lee and Yen-Ling Kuo},
-      year={2024},
-      eprint={2410.14868},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2410.14868}, 
+      author={Sung-Wook Lee, Xuhui Kang, Yen-Ling Kuo},
+      booktitle={International Conference on Robotics and Automation (ICRA)},
+      year={2025}, 
 }</code></pre>
   </div>
 </section>
