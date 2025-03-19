@@ -1,13 +1,15 @@
-# Nerfies
+# Diff-DAgger
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [Diff-DAgger](https://https://diffdagger.github.io).
 
-If you find Nerfies useful for your work please cite:
+If you find our paper useful for your work please cite:
 ```
-@article{,
-  author    = {Sung-Wook Lee, Yen-Ling Kuo},
-  title     = {Diff-DAgger: Uncertainty Estimation with Diffusion Policy for Robotic Manipulation},  
-  year      = {2024},
+
+@inproceedings{lee2024diff,
+    title={Diff-DAgger: Uncertainty Estimation with Diffusion Policy for Robotic Manipulation}, 
+    author={Sung-Wook Lee, Xuhui Kang, Yen-Ling Kuo},
+    booktitle={International Conference on Robotics and Automation (ICRA)},
+    year={2025}, 
 }
 ```
 
