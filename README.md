@@ -1,6 +1,6 @@
 # Diff-DAgger
 
-This is the repository that contains source code for the [Diff-DAgger](https://https://diffdagger.github.io).
+This is the repository that contains source code for the [Diff-DAgger](https://diffdagger.github.io).
 
 If you find our paper useful for your work please cite:
 ```
