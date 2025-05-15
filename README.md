@@ -7,7 +7,7 @@ If you find our paper useful for your work please cite:
 
 @inproceedings{lee2024diff,
     title={Diff-DAgger: Uncertainty Estimation with Diffusion Policy for Robotic Manipulation}, 
-    author={Sung-Wook Lee, Xuhui Kang, Yen-Ling Kuo},
+    author = {Lee, Sung-Wook and Kang, Xuhui and Kuo, Yen-Ling},
     booktitle={International Conference on Robotics and Automation (ICRA)},
     year={2025}, 
 }
